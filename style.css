@@ -1,0 +1,56 @@
+
+#head {
+  display: flex;
+  justify-content: space-between;
+}
+#overallogo {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-top: 5px;
+}
+#lang {
+  position: absolute;
+  right: 16px;
+}
+#navbarcontainer {
+  position: absolute;
+  right: 30px;
+  margin: 30px;
+  width: auto;
+}
+.navbar a {
+  display: inline-block;
+  overflow: hidden;
+  color: #FFE3BC;
+  padding: 15px 19px;
+  margin: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #1A1A1A;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.navbar a:hover {
+  display: inline-block;
+  overflow: hidden;
+  color: #FFE3BC;
+  padding: 20px 24px;
+  margin: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #1A1A1A;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.slider-hero {
+
+}
+.slider-hero div {
+  height: 90px;
+  width: 90px;
+}
