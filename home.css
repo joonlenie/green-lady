@@ -1,6 +1,5 @@
 :root {
   --light orange: #FFE3BC;
-  
 }
 #head {
   display: flex;
@@ -50,10 +49,28 @@
   border-radius: 15px;
   cursor: pointer;
 }
-.slider-hero {
+#slideshow{
+  margin-top: 0px;
+  width:90%;
+  padding-left: 120px;
 
 }
-.slider-hero div {
-  height: 90px;
-  width: 90px;
+.carousel-control-prev-icon {
+  color: red;
+  width: 70px;
+  height: 70px;
+}
+/*
+#carousel-control-prev{
+  margin-top: 0px;
+  width:90%;
+  margin-left: 120px%;
+
+}
+
+#bottom {
+color: aquamarine;
+}
+
+
 }
