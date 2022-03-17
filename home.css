@@ -6,22 +6,26 @@
 #head {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 #overallogo {
   position: relative;
   overflow: hidden;
   float: left;
-  margin-top: 5px;
+  height: 50px;
+
 }
 #lang {
   position: absolute;
   right: 16px;
+  margin-top: 5px;
 }
 #navbarcontainer {
   position: absolute;
   right: 30px;
   margin: 30px;
   width: auto;
+  padding-bottom: 20px;
 }
 .navbar a {
   display: inline-block;
@@ -75,7 +79,7 @@ color: aquamarine;
 } */
 .section2 {
   background-color: var(--lightpurple);
-  height:500px;
+  height:540px;
   width:auto;
   display: flex;
   justify-content: space-evenly;
@@ -83,14 +87,13 @@ color: aquamarine;
 }
 .section2 img {
   height: 500px;
-  width: 580px;
+  width: 630px;
 }
 .section3 {
   background-color: var(--lightorange);
-  height: 250px;
+  height: 260px;
   width: auto;
   padding-top: 100px;
-
 }
 .section3 div {
   font-size: 20px;
@@ -104,14 +107,57 @@ color: aquamarine;
 .section3 button {
   justify-self: center;
 }
+.kk {
+  text-align: center;
+  padding-top: 10px;
+}
 .section4 {
   background-color: var(--lightpurple);
-  height: 400px;
+  height: 250px;
   width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section4 div {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.section4-left-column {
+  position: relative;
+  bottom: 13px;
+}
+.section4-left p {
+  font-family: verdana;
+  font-size: 18px;
+  color: var(--black);
+  font-weight: bold;
+  position: relative;
+  bottom: 14px;
+}
+.section4-right {
+  text-align: right;
+}
+.section4-right p {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--black);
+  line-weight: 0.5;
+}
+.section4-right button {
+  font-family: verdana;
+  font-size: 20px;
+  color: var(--lightpurple);
+  background-color: var(--black);
+  padding: 10px;
+  border: 2px solid var(--black);
+  border-radius: 15px;
+  cursor: pointer;
 }
 .section5 {
   background-color: var(--black);
-  height: 30px;
+  height: 45px;
   width: auto;
 }
 .section5 p {
@@ -119,8 +165,6 @@ color: aquamarine;
   font-family: sans-serif;
   color: var(--lightpurple);
   text-align: center;
-}
-.kk {
-  text-align: center;
-  padding-top: 10px;
+  position: relative;
+  top: 10px;
 }
