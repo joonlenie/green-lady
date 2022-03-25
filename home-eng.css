@@ -6,7 +6,7 @@
 #head {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 #overallogo {
   position: relative;
@@ -30,14 +30,14 @@
 .navbar a {
   display: inline-block;
   overflow: hidden;
-  color: #FFE3BC;
+  color: var(--lightorange);
   padding: 15px 19px;
   margin: 2px 2px;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
-  background-color: #1A1A1A;
-  border: 2px solid #1A1A1A;
+  background-color: var(--black);
+  border: 2px solid var(--black);
   border-radius: 15px;
   cursor: pointer;
 }
@@ -77,8 +77,8 @@ color: aquamarine;
   align-items: center;
 }
 .section2 img {
-  height: 500px;
-  width: 630px;
+  height: 450px;
+  width: 560px;
 }
 .section2 button {
   font-family: verdana;
@@ -96,6 +96,7 @@ color: aquamarine;
   height: 300px;
   width: auto;
   padding-top: 100px;
+
 }
 .section3 div {
   font-size: 20px;
@@ -105,21 +106,21 @@ color: aquamarine;
   display: flex;
   align-items: center;
   justify-content: center;
-} /*
-.section3 button {
-  justify-self: center;
-}*/
+}
 .section3 .cn {
   background: var(--lightpurple);
   color: #1A1A1A;
+  border: 2px solid var(--lightpurple);
   border-radius: 15px;
+  padding: 8px;
+  cursor: pointer;
 }
 .section3 .cn a {
 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #1A1A1A;
   text-decoration: none;
- 
+
 }
 .section4 {
   background-color: var(--lightpurple);
